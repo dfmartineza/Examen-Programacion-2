@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Examen {
+
+    public static void main(String[] args) {
+         int a;
+        for(int i=1000;i>962;i--){
+            a=i%2;
+            if(a==0){
+                System.out.print(i+",");
+            }
+        }
+
