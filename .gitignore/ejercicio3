@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Examen {
+
+    public static void main(String[] args) {
+     int edad ;
+        Scanner leer = new Scanner(System.in); 
+        edad= leer.nextInt();
+        if (edad<21){
+            System.out.println("menor de edad");
+        }else{
+        if(edad<60){
+            System.out.println("mayor de edad");
+        
+        }else{
+            System.out.println("adulto mayor");
+        }
+        }
+}
